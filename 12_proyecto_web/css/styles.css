@@ -1,0 +1,150 @@
+
+.container {
+    width: 920px;
+    margin: 0 auto;
+        
+    /*margin: 0; aplica a todos */
+    /*margin: 0 0; el primero aplica a top-buttom y el segundo right-left*/
+    /*margin: 0 0 0; top right-left buttom */
+    /*margin:0 0 0 0; top right buttom left */
+    /*margin-top, margin-rigt, margin-buttom, margin-left*/
+}    
+#encabezado{
+    height: 150px; 
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    align-items: center;
+    
+}
+
+#encabezado figure{
+   margin: 0px; 
+    
+}
+#titulos{
+    margin:0px;
+}
+
+#encabezado h1{font-size: 1.2em;text-decoration: underline;}
+#encabezado h2{font-size: 1.0em;}
+#encabezado h3{font-size: 0.9em;}
+#encabezado h4{font-size: 0.8em;}
+    
+
+#contenido{
+    
+}
+/*NOTA IMPORTANTE INICIO*/
+#nota-importante{
+    height: 300px;
+    background-color: rgb(143, 188, 143);
+    margin 20px 0;
+    /*box shadow: horizontal vertical blur color*/
+    box-shadow: 0 0 15px darkgray;
+}
+
+#nota importante img{
+    
+   border:10px solid white;
+}
+
+
+/*NOTA IMPORTANTE FIN*/
+#notas-secundarias{
+    height: 300px;
+    width: 700px;
+    display: inline-block;
+    float: left;
+    background-color: darkgoldenrod;
+    
+}
+
+#publicidad{
+    height: 300px;
+    width: 220px;
+    display: inline-block;
+    float:right;
+    background-color: coral;
+}
+
+#pie{
+   height: 150px;
+   clear: both;
+   background-color: dimgray;
+}
+
+#menu{
+    height: 50px;
+    background-color:rgba(100, 149, 237, 0.92);
+    justify-content: center;
+    display: flex;
+}
+
+#menu ul{
+    padding:0;
+}
+
+#menu li{
+    list-style-type: none:
+    padding:0px;
+    display:inline-block;
+}
+
+#menu li a{
+    text-decoration: none;
+    color:black;
+    font:inherit; 
+}
+
+#menu>ul>li{
+    display: inline-block
+}
+
+#menu>ul>li>a{
+    padding: 10px;
+    background-color: darkgrey;
+}
+
+#menu>ul>li>a:hover{
+    
+    background-color: lightgray;
+    transition: 1s;
+    
+}
+
+#menu li ul{
+    
+    display; none;/*oculta objetos*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
