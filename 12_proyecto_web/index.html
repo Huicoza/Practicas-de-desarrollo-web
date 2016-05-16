@@ -1,30 +1,118 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>  
       <meta charset="UTF-8">
       <title>Proyecto web</title>
       <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-      <div class="container">
-     <header id="encabezado"></header>
-     <nav id="menu">barra de navegacion</nav>
-     <main id="contenido">
-     <section id="nota-importante">nota importante</section>
-     <section id="notas-secundarias">notas secundarias</section>
-     <aside   id="publicidad">publicidad</aside>
-     </main>
-     <footer id="pie">pie de pagina</footer>
-     </div>
-</body>
-  <div class="container">
-<!--se cambio de section a header para que los motores de busqueda 
-identefiquen el encabezado de la pagina(las porciones de pagina)-->
-        <header id="encabezado">
-<!--crear una imagen de una ilustracion-->
-        <figure>
-        <div id
+    
 
+  <div class="container">
+
+        <!--se cambio de section a header para que los motores de busqueda 
+         identefiquen el encabezado de la pagina(las porciones de pagina)-->
+
+<header id="encabezado">
+
+       <!--crear una imagen de una ilustracion-->
+        <figure>
+        <!--rutas absolutas y relativas-->
+        <!--/relativa/a/raiz/del/sitio-->
+        <!--relativa/al/archivo/actual-->
+        <!--htpp://www.dominio.com/ruta/absoluta/index.html-->
+        <!--file://c\users\HUICOZA\practicas\12_proyecto_web\images\logo_sep.png-->
+        <img src="image/logo_sep.png" alt="Logotipo SEP">
+        </figure>
+        
+        <div id="titulos">
+         <h1>Sitio Oficial del CETia No.108</h1>
+         <h2>Subsecretaria de Educacion Media Superior</h2>
+         <h3>Direccion General de Educacion Tecnologica Industrial</h3>
+         <h4>Centro de Estudios Tecnologicos industrial y de servicios No.108</h4>
+         <h4>"Gral.Gabriel Leyva Solano" C.C.T 25DCT0108H</h4>
+        </div>
+        
+        <div id="busqueda">
+          <figure>
+             <img src="image/sems_dgeti.png" alt="Logotipo SEMS DEGETI">
+          </figure>
+           <input type="text" name="busqueda" id="busqueda">
+           <button>Buscar</button>
+        </div>
+
+      </header> 
+      
+      <nav id="menu"> 
+          <ul><!--unordered list-->
+              <li><a href="#">Inicio</a></li><!--list item-->
+             <li><a href="#">Plantel</a></li>
+             <li>
+             <a href="#">Oferta educativa</a>
+             <ul>
+                 <li><a href="#">Progrmacion</a></li>
+                 <li><a href="#">Soporte</a></li>
+                 <li><a href="#">Contabilidad</a></li>
+                 <li><a href="#">Mantenimiento Aut.</a></li>
+                 <li><a href="#">Electronica</a></li>
+            </ul>
+              </li>
+              
+            <li>
+            <a href="#">Alumnos</a> 
+            
+             <ul>
+                 <li><a href="#">Horarios</a></li>
+                 <li><a href="#">Calificaciones</a></li>
+                 <li><a href="#">Convocatorias</a></li>
+            </ul>
+              </li>
+                
+                  <li><a href="#">Docentes</a></li>
+                  <li><a href="#">Empleados</a></li>
+                  <li><a href="#">Contacto</a></li>
+                  
+          </ul>
+      </nav>
+       
+<!--se cambio de section a main para que los motores de busqueda identfiquen
+       lo principal de la pagina-->
+       
+       <main id="contenido">
+         <section id="nota_importante">
+            
+             <img src="image/lolaso.jpg" alt="nota importante">
+        </section>
+        
+        <section id="notas_secundarias">
+        
+           notas secundarias 
+         </section>
+         
+         <aside id="publicidad">
+         
+         publicidad
+         
+         </aside>
+        
+          
+      </main>
+          <footer id="pie">
+          
+          pie de pagina 
+          
+           </footer>
+    </div>
+    </body>
+</html>        
+           
+        
+   
+   
+    
+    
+ 
+    
 
 
 
